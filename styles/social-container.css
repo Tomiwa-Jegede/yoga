@@ -1,0 +1,12 @@
+.footer-container .social-container{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.footer-container .social-container a{
+margin-right:20px;
+text-decoration: none;
+}
+.footer-container .social-container img{
+display:block;
+}

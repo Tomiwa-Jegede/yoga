@@ -1,0 +1,28 @@
+@media(max-width:376px){
+.header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:15px 24px;
+  padding-bottom:40px;
+}
+.header-tools{
+  display:flex;
+  align-items:center;
+}
+.darkmode-icon{
+  margin-right:20px;
+}
+.darkmode-icon:hover{
+  cursor: pointer;
+}
+.menu:hover{
+  cursor: pointer;
+}
+.header-tools div :nth-child(1) {
+  display: block;
+}
+.header-tools div :nth-child(2) {
+  display: none;
+}
+}

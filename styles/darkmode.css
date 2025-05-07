@@ -1,0 +1,48 @@
+@media (max-width: 376px) {
+  .darkmode img,
+  .darkmode h1,
+  .darkmode h4,
+  .darkmode span,
+  .darkmode div {
+    background-color: var(--dark-body);
+  }
+  .darkmode h1 {
+    color: var(--dark-title-color);
+  }
+  .darkmode h4,
+  .darkmode div {
+    color: var(--dark-text-color);
+  }
+  .darkmode .footer-container div h2,
+  .darkmode .footer-container div h4 {
+    background-color: transparent;
+  }
+  .join-container h1 {
+    color: white;
+  }
+  .join-container h4 {
+    color: white;
+  }
+  .darkmode .health-container .dark-mode-image {
+    display: block;
+  }
+  .darkmode .routine-container .dark-mode-image {
+    display: block;
+  }
+  .darkmode .health-container .light-mode-image {
+    display: none;
+  }
+  .darkmode .routine-container .light-mode-image {
+    display: none;
+  }
+  .header-tools div {
+    color: var(--dark-title-color);
+  }
+
+  .darkmode .header-tools div :nth-child(2) {
+    display: block;
+  }
+  .darkmode .header-tools div :nth-child(1) {
+    display: none;
+  }
+}

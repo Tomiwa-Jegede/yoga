@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  background: var(--body-color);
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  /*----------general colors--------------*/
+  --gradient-color: linear-gradient(to right, #ff52ae, #8b52ff);
+  --first-color: #8b52ff;
+  --second-color: #ff52ae;
+  /*----------light mode colors--------------*/
+  --first-color-light: #e5d9fd;
+  --first-color-dark: #1e0849;
+  --title-color: #1e0849;
+  --text-color: #1e0849;
+  --text-color-light: #a197b4;
+  --body-color: #f5f0ff;
+  /*----------dark mode colors--------------*/
+  --dark-title-color: #d1c0f1;
+  --dark-text-color: #a094b8;
+  --dark-body: #14092A;
+}
