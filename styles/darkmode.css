@@ -35,6 +35,29 @@
   .darkmode .routine-container .light-mode-image {
     display: none;
   }
+  .darkmode .nav-menu .cancel-btn :nth-child(1) {
+    display: none;
+  }
+  .darkmode .nav-menu .cancel-btn :nth-child(2) {
+    display: block;
+    background: var(--dark-menu-color);
+
+  }
+  .darkmode .nav-menu {
+    background: var(--dark-menu-color);
+  }
+  .darkmode .nav-menu ul {
+    background: var(--dark-menu-color);
+  }
+  .darkmode .nav-menu ul li {
+    background: var(--dark-menu-color);
+    color: var(--dark-title-color);
+  }
+  .darkmode .nav-menu ul .home {
+    background: var(--gradient-color);
+    background-clip: text;
+    color: transparent;
+  }
   .header-tools div {
     color: var(--dark-title-color);
   }

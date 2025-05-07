@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   background: var(--body-color);
   font-family: "Poppins", sans-serif;
@@ -18,5 +18,6 @@
   /*----------dark mode colors--------------*/
   --dark-title-color: #d1c0f1;
   --dark-text-color: #a094b8;
-  --dark-body: #14092A;
+  --dark-body: #14092a;
+  --dark-menu-color: #1a1a1a;
 }

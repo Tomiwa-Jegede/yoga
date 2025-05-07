@@ -9,11 +9,15 @@
     overflow:hidden;
     transition:width .5s ease-in-out
   }
-  .nav-menu img {
+  .nav-menu .cancel-btn {
     position: absolute;
     top: 20px;
     right: 26px;
     cursor:pointer
+  }
+  
+  .nav-menu .cancel-btn :nth-child(2){
+    display:none;
   }
   
   .nav-menu ul {
