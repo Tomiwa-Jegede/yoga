@@ -8,6 +8,17 @@
 .darkmode h1 {
   color: var(--dark-title-color);
 }
+.darkmode .nav-menu-destop ul {
+  background: var(--dark-body);
+}
+.darkmode .nav-menu-destop ul li {
+  background: var(--dark-body);
+  color: var(--dark-title-color);
+  transition:all .5s ease;
+}
+.darkmode .nav-menu-destop ul li:hover {
+  color: var(--dark-text-color);
+}
 .darkmode h4,
 .darkmode div {
   color: var(--dark-text-color);
