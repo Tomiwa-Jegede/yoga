@@ -2,8 +2,8 @@
   body {
     min-width: 376px;
   }
-  .nav-menu-destop{
-    display:none;
+  .nav-menu-destop {
+    display: none;
   }
   .header {
     display: flex;
@@ -34,8 +34,8 @@
 }
 
 @media (min-width: 769px) {
-  .header .menu{
-    display:none;
+  .header .menu {
+    display: none;
   }
   .header {
     display: flex;
