@@ -1,6 +1,6 @@
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   /*----------health container--------------*/
-  .health-container {
+  .health-container-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,15 +15,23 @@
     font-weight: 100;
     margin-bottom: 24px;
   }
+  .health-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 23px;
+    color: var(--title-color);
+  }
   /*----------health container subtitle--------------*/
   .health-container h4 {
     font-weight: 100;
     margin-bottom: 32px;
     text-align: center;
   }
+
   /*----------health container button--------------*/
   .health-container button {
-    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +51,64 @@
   .health-container .dark-mode-image {
     display: none;
   }
-  .routine-container .dark-mode-image{
+  .routine-container .dark-mode-image {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  /*----------health container--------------*/
+  .health-container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--title-color);
+  }
+  .health-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 23px;
+    color: var(--title-color);
+  }
+  /*----------health container title--------------*/
+  .health-container h1 {
+    font-family: "Lora", serif;
+    font-weight: 100;
+    margin-bottom: 24px;
+  }
+  .health-container-content{
+    margin-left: 32px;
+  }
+  /*----------health container subtitle--------------*/
+  .health-container h4 {
+    font-weight: 100;
+    margin-bottom: 32px;
+  }
+  .health-container .button-container{
+    padding:0;
+  }
+  /*----------health container button--------------*/
+  .health-container button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-color);
+    padding: 16.5px 2.6px;
+    border-radius: 64px;
+    color: #ffffff;
+  }
+  /*----------health container button arrow--------------*/
+  .health-container button i {
+    background: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 4px;
+  }
+  .health-container .dark-mode-image {
+    display: none;
+  }
+  .routine-container .dark-mode-image {
     display: none;
   }
 }

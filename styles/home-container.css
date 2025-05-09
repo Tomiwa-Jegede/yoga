@@ -1,13 +1,19 @@
 /*----------mobile design--------------*/
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   /*----------home page container--------------*/
   .home-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:0 24px;
+    padding: 0 24px;
     padding-bottom: 19px;
+  }
+  .home-container-col-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   /*----------home container title--------------*/
   .home-container h1 {
@@ -23,18 +29,18 @@
   .home-container h1 img {
     position: absolute;
     bottom: 13px;
-    left: 16px;
+    left: -30px;
   }
   /*----------home container yoga sign--------------*/
   .home-container h1 span {
     background: var(--gradient-color);
-    font-family:"Lora", serif;
+    font-family: "Lora", serif;
     display: inline-flex;
     width: fit-content;
     border-radius: 8px;
     padding: 6px 14px;
     transform: rotate(10deg);
-    color:white;
+    color: white;
   }
   /*----------home container subtile--------------*/
   .home-container h4 {
@@ -48,6 +54,7 @@
   /*----------button container--------------*/
   .button-container {
     width: 206px;
+    align-self:center;
     margin-bottom: 32px;
   }
   /*----------button--------------*/
@@ -94,11 +101,116 @@
     font-size: 28px;
     font-family: "Lora", serif;
   }
-    /*-----number group texts--------*/
+  /*-----number group texts--------*/
   .number-group-container div span {
     font-size: 13px;
   }
-  .home-yoga{
-    margin-bottom:32px;
+  .home-yoga {
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 769px) {
+  /*----------home page container--------------*/
+  .home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    padding-bottom: 19px;
+  }
+  /*----------home container title--------------*/
+  .home-container h1 {
+    position: relative;
+    font-family: "Lora", serif;
+    padding:0 60px;
+    font-size: clamp(44px, 5vw, 96px);
+    font-weight: 100;
+    line-height: 135%;
+    margin-bottom:30px;
+    color: var(--title-color);
+  }
+  /*----------home container star--------------*/
+  .home-container h1 img {
+    position: absolute;
+    bottom: 70px;
+    right: 60px;
+  }
+  /*----------home container yoga sign--------------*/
+  .home-container h1 span {
+    background: var(--gradient-color);
+    font-family: "Lora", serif;
+    display: inline-flex;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 6px 14px;
+    transform: rotate(10deg);
+    color: white;
+  }
+  /*----------home container subtile--------------*/
+  .home-container h4 {
+    position: relative;
+    margin-bottom: 24px;
+    padding:0 60px;
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--title-color);
+  }
+  /*----------button container--------------*/
+  .button-container {
+    width: 206px;
+    margin-bottom: 32px;
+    padding:0 60px;
+  }
+  /*----------button--------------*/
+  .button-container button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-color);
+    padding: 16.5px 2.6px;
+    border-radius: 64px;
+    width: 100%;
+    color: #ffffff;
+  }
+  /*----------button arrow--------------*/
+  .button-container button i {
+    background: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 4px;
+  }
+  /*----------subtitle image--------------*/
+  .home-container h4 img {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+  }
+  /*-----number group--------*/
+  .number-group-container {
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 199px;
+    height: 56px;
+    padding:0 60px;
+    margin-bottom: 32px;
+  }
+  /*-----number group numbers--------*/
+  .number-group-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-family: "Lora", serif;
+  }
+  /*-----number group texts--------*/
+  .number-group-container div span {
+    font-size: 13px;
+  }
+  .home-yoga {
+    margin-bottom: 32px;
   }
 }

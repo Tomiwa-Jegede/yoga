@@ -1,6 +1,6 @@
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   /*----------routine container--------------*/
-  .routine-container {
+  .routine-container-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +8,15 @@
     padding: 32px 23px;
     color: var(--title-color);
   }
+  .routine-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 23px;
+    color: var(--title-color);
+  }
+
   /*----------routine container title--------------*/
   .routine-container h1 {
     text-align: center;
@@ -32,6 +41,67 @@
     border-radius: 64px;
     width: 100%;
     color: #ffffff;
+  }
+  /*----------routine container button arrow--------------*/
+  .routine-container button i {
+    background: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 4px;
+  }
+  .footer-container-details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 769px) {
+  /*----------routine container--------------*/
+  .routine-container {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 32px 64px;
+    color: var(--title-color);
+  }
+  .routine-container-content{
+    display: flex;
+    flex-direction: column;
+    margin-right:32px;
+    justify-content: center;
+    color: var(--title-color);
+  }
+
+  /*----------routine container title--------------*/
+  .routine-container h1 {
+    font-family: "Lora", serif;
+    font-weight: 100;
+    margin-bottom: 24px;
+  }
+
+  /*----------routine container subtitle--------------*/
+  .routine-container h4 {
+    font-weight: 100;
+    margin-bottom: 32px;
+  }
+  /*----------routine container button--------------*/
+  .routine-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-color);
+    padding: 16.5px 2.6px;
+    border-radius: 64px;
+    width: 100%;
+    color: #ffffff;
+  }
+  .routine-container .button-container{
+    padding:0;
+  }
+  .footer-container-details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
   }
   /*----------routine container button arrow--------------*/
   .routine-container button i {

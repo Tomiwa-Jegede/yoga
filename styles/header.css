@@ -1,4 +1,10 @@
-@media (max-width: 376px) {
+@media (max-width: 768px) {
+  body {
+    min-width: 376px;
+  }
+  .nav-menu-destop{
+    display:none;
+  }
   .header {
     display: flex;
     align-items: center;
@@ -27,13 +33,35 @@
   }
 }
 
-@media (max-width:1024px) {
+@media (min-width: 769px) {
+  .header .menu{
+    display:none;
+  }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 24px;
     padding-bottom: 40px;
+  }
+  .nav-menu-destop ul {
+    padding: 0;
+    width: 316px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  .nav-menu-destop ul li:hover {
+    background: var(--gradient-color);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .nav-menu-destop ul a {
+    text-decoration: none;
+  }
+  .nav-menu {
+    display: none;
   }
   .header-tools {
     display: flex;

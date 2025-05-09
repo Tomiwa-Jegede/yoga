@@ -1,8 +1,8 @@
-@media (max-width: 376px) {
+@media (max-width: 450px) {
   /*--------------footer container-----------------*/
   .footer-container {
     padding-top: 48px;
-    padding:32px 24px;
+    padding: 32px 24px;
     background: var(--first-color-dark);
   }
   /*--------------footer content container-------------*/
@@ -31,16 +31,65 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-   /*--------------footer first sub-title-------------*/
+  /*--------------footer first sub-title-------------*/
   .footer-container h4 {
     font-size: 15px;
-    width:fit-content;
+    width: fit-content;
     color: var(--text-color-light);
     background: var(--first-color);
   }
-   /*--------------footer office container-------------*/
+  /*--------------footer office container-------------*/
   .footer-container .office {
-    padding-bottom: 40px;
-    border-bottom: var(--text-color-light) solid 1px;
+    border-bottom: 0;
+  }
+  .footer-container-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  /*--------------footer container-----------------*/
+  .footer-container {
+    padding-top: 48px;
+    padding: 32px 24px;
+    background: var(--first-color-dark);
+  }
+  /*--------------footer content container-------------*/
+  .footer-container div {
+    background: var(--first-color-dark);
+    margin-bottom: 40px;
+  }
+  /*--------------footer title & semi-title-------------*/
+  .footer-container div :nth-child(1),
+  .footer-container div :nth-child(2) {
+    background: var(--first-color-dark);
+    font-weight: 100;
+  }
+  /*--------------footer title-------------*/
+  .footer-container h2 {
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Lora", serif;
+    background: var(--first-color-dark);
+  }
+  /*--------------footer first title-------------*/
+  .footer-container .yoga h2 {
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /*--------------footer first sub-title-------------*/
+  .footer-container h4 {
+    font-size: 15px;
+    width: fit-content;
+    color: var(--text-color-light);
+    background: var(--first-color);
+  }
+  /*--------------footer office container-------------*/
+  .footer-container .office {
+    border-bottom: 0;
   }
 }
